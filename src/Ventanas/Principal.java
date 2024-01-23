@@ -141,7 +141,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void OTNormalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OTNormalActionPerformed
         OTNormal p1=new OTNormal();
-        p1.setSize(400,400);
+        p1.setSize(900,500);
         p1.setLocation(0,0);
         
         PanelUso.removeAll();

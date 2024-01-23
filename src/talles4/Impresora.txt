@@ -1,0 +1,8 @@
+Impresora Impresora térmica TypStar TYP-5803 58mm portátil
+Ancho del papel	57 mm
+Ancho de impresión	48 mm
+
+-----------------------------------------------------
+Impresora térmica TypStar TYP-5890 USB+Bluetooth
+Requisito de papel	Tipo	Papel térmico estándar
+Anchura	57.5 ± 0.5 mm
