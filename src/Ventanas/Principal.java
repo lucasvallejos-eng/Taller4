@@ -59,9 +59,13 @@ public class Principal extends javax.swing.JFrame {
         });
 
         OTGlobo.setText("Ot Globo");
+        OTGlobo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                OTGloboActionPerformed(evt);
+            }
+        });
 
         RegistroNormal.setText("Registro");
-        RegistroNormal.setActionCommand("Registro");
         RegistroNormal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RegistroNormalActionPerformed(evt);
@@ -153,6 +157,17 @@ public class Principal extends javax.swing.JFrame {
     private void RegistroNormalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroNormalActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_RegistroNormalActionPerformed
+
+    private void OTGloboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OTGloboActionPerformed
+      OTGlobo p1=new OTGlobo();
+        p1.setSize(900,500);
+        p1.setLocation(0,0);
+        
+        PanelUso.removeAll();
+        PanelUso.add(p1,BorderLayout.CENTER);
+        PanelUso.revalidate();
+        PanelUso.repaint();
+    }//GEN-LAST:event_OTGloboActionPerformed
 
     /**
      * @param args the command line arguments
